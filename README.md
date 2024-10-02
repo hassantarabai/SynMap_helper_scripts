@@ -1,14 +1,14 @@
 # SynMap_helper_scripts
 Tools to facilitate Synteny analysis using SynMap
 
-## **Inversion of nucleotide fasta and gff files**
+## **Inversion of nucleotide FASTA and GFF files**
 
 ### **invert_fasta.py & invert_gff.py**
 
-- The script **invert_fasta.py** is used to invert nueclotide sequences and takes a multi-contig fasta file as an input.
-- The **invert_gff.py** script can be used to prepare a gff file with the inverted coordinates of an input gff file. The script takes as input a gff file and its associated nucleotide fasta file. 
-
-[Biopython](https://biopython.org/) for functionality.
+- The script **invert_fasta.py:** This script inverts nucleotide sequences in a multi-contig FASTA file by generating their reverse complement.
+- The **invert_gff.py:** This script prepares a GFF file with inverted coordinates. It requires an input GFF file along with the associated nucleotide FASTA file to correctly compute the inverted positions and strands.
+- 
+Both scripts rely on Biopython [Biopython](https://biopython.org/) for functionality.
 
 ## Installation
 
@@ -16,3 +16,6 @@ with conda:
 ```
 conda install -c conda-forge biopython
 ```
+# Output
+- invert_fasta.py: Outputs a new FASTA file with reverse-complemented sequences.
+- invert_gff.py: Outputs a new GFF file with inverted coordinates and strand information.
