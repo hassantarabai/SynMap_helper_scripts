@@ -1,7 +1,7 @@
 import os
 from Bio import SeqIO
 
-# Function to reverse complement FASTA files
+# Reverse complement FASTA files
 def reverse_complement_fasta(input_file, output_file):
     with open(output_file, "w") as output_handle:
         for record in SeqIO.parse(input_file, "fasta"):
