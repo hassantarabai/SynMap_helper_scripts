@@ -10,20 +10,20 @@ Tools to facilitate Synteny analysis using SynMap
  
 Both scripts rely on [Biopython](https://biopython.org/) for functionality.
 
-## Installation
+### Installation
 
 with conda:
 ```
 conda install -c conda-forge biopython
 ```
-# Output
+### Output
 - invert_fasta.py: Outputs a new FASTA file with reverse-complemented sequences.
 - invert_gff.py: Outputs a new GFF file with inverted coordinates and strand information.
 
-# Note
+### Note
 You can use the **agat_convert_sp_gxf2gxf.pl** command from [agat package](https://anaconda.org/bioconda/agat) to modify the generated inverted gff files to be SynMap compatible:
 
-# Use
+#### Use
 ```
 agat_convert_sp_gxf2gxf.pl --gff inverted_gff -o Synmap_compatible_inverted_gff
 ```
