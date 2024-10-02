@@ -12,5 +12,5 @@ The scripts require [Biopython](https://biopython.org/) for thier function funct
 
 with conda:
 ```
-conda install -c conda-forge biopython seaborn matplotlib numpy blast
+conda install -c conda-forge biopython
 ```
