@@ -21,7 +21,7 @@ conda install -c conda-forge biopython
 - invert_gff.py: Outputs a new GFF file with inverted coordinates and strand information.
 
 ### Note
-You can use the **agat_convert_sp_gxf2gxf.pl** command from [agat package](https://anaconda.org/bioconda/agat) to modify the generated inverted gff files to be SynMap compatible:
+You can use the **agat_convert_sp_gxf2gxf.pl** command from [agat package](https://anaconda.org/bioconda/agat) to modify the generated inverted gff files for SynMap compatibility:
 
 #### Use
 ```
