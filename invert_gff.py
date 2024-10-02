@@ -1,7 +1,7 @@
 import os
 from Bio import SeqIO
 
-# Function to calculate contig lengths from the FASTA file
+# Calculate contig lengths from the FASTA file
 def get_contig_lengths(fasta_file):
     contig_lengths = {}
     with open(fasta_file, "r") as fasta_handle:
@@ -9,7 +9,7 @@ def get_contig_lengths(fasta_file):
             contig_lengths[record.id] = len(record.seq)
     return contig_lengths
 
-# Function to invert GFF3 coordinates and strand
+# Invert GFF3 coordinates and strand
 def invert_gff(input_gff, contig_lengths, output_gff):
     with open(input_gff, "r") as infile, open(output_gff, "w") as outfile:
         for line in infile:
