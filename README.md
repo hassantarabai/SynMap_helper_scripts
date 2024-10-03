@@ -29,7 +29,7 @@ This script extract cds based on an input of GFF3 and corresponding nucelotide F
 -AA FASTA file representing the translated cds.
 
  
-The scripts rely on [Biopython](https://biopython.org/) for functionality.
+## The scripts rely on [Biopython](https://biopython.org/) for functionality.
 
 ### Installation
 
