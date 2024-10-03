@@ -6,10 +6,10 @@ from Bio.SeqFeature import FeatureLocation
 gff_file = input("Please enter the path to the GFF file: ")
 genome_fasta = input("Please enter the path to the genome FASTA file: ")
 
-# Load genome sequence (assuming sequences may already be reversed in FASTA)
+# Load genome sequence
 genome_dict = SeqIO.to_dict(SeqIO.parse(genome_fasta, "fasta"))
 
-# Debug: Print scaffold names in the genome FASTA file
+# Print scaffold names in the genome FASTA file
 print("Scaffold names in the genome FASTA:")
 for scaffold in genome_dict.keys():
     print(scaffold)
