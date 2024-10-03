@@ -22,7 +22,7 @@ agat_convert_sp_gxf2gxf.pl --gff inverted_gff -o Synmap_compatible_inverted_gff
 
 ### **get_CDS_AA.py**
 
-This script extract cds based on an input of GFF3 and corresponding nucelotide FASTA file, then translate the cds to amino acids (AA).
+This script extract cds based on an input of GFF3 and corresponding nucelotide FASTA file, then translate the cds to amino acids "(AA)".
 
 ### Output
 -Nucelotide FASTA file representing identified cds.
