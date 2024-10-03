@@ -26,6 +26,7 @@ This script extract cds based on an input of GFF3 and corresponding nucelotide F
 
 ### Output
 -Nucelotide FASTA file representing identified cds.
+
 -AA FASTA file representing the translated cds.
 
  
